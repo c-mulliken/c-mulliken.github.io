@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
+title: CV
 ---
-# About page
+## CV
 
 This page tells you a little bit about me.
