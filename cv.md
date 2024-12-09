@@ -4,4 +4,4 @@ title: CV
 ---
 ## CV
 
-This page tells you a little bit about me.
+You can find my CV [here](/pdfs/cv.pdf).
