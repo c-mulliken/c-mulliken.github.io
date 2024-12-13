@@ -1,3 +1,19 @@
 .current {
     color: green;
 }
+
+.content-container {
+    max-width: 600px;    // Limit the width of the main content
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 1rem;     // Add some horizontal padding for readability
+    font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace';
+  }
+
+.nav-bar {
+    font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace';
+}
+
+.title {
+    font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace';
+}
