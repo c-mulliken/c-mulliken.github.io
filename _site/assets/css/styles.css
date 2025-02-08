@@ -2,20 +2,25 @@
   color: green;
 }
 
+body {
+  text-align: center;
+}
+
 .content-container {
   max-width: 600px;
+  margin: 0 auto;
   text-align: justify;
   text-justify: inter-word;
   padding: 0 1rem;
-  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "Courier", "monospace";
+  font-family: "Inter", sans-serif;
 }
 
 .nav-bar {
-  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "Courier", "monospace";
+  font-family: "Montserrat", sans-serif;
 }
 
 .title {
-  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "Courier", "monospace";
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
