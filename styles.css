@@ -42,6 +42,11 @@ nav a.active {
     color: #333;
 }
 
+a {
+        color: #333; /* Sets the link color to black (or any other color) */
+}
+
+
 /* Typography */
 h1 {
     font-size: 1.8em;
