@@ -1,0 +1,58 @@
+:root {
+  --bg: #f8f7f4;
+  --text: #121212;
+  --muted: #535353;
+  --link: #111111;
+  --link-hover: #5d5d5d;
+  --max: 34rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  display: grid;
+  place-items: center;
+  padding: 2rem 1.5rem;
+}
+
+main {
+  width: min(100%, var(--max));
+}
+
+img {
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1.25rem;
+  border-radius: 2px;
+  filter: saturate(0.92) contrast(1.02);
+}
+
+p {
+  font-size: clamp(1.02rem, 1.2vw + 0.75rem, 1.22rem);
+  line-height: 1.55;
+  letter-spacing: 0.003em;
+  color: var(--muted);
+  margin-bottom: 0.7rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.13em;
+  transition: color 180ms ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
